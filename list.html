@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce List Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>E-Commerce Store</h1>
+            <div class="cart-icon">
+                <img src="https://cdn-icons-png.flaticon.com/512/34/34568.png" alt="Cart">
+                <span class="cart-count">0</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="filter-bar">
+            <select id="category-filter">
+                <option value="all">All Categories</option>
+                <option value="electronics">Electronics</option>
+                <option value="jewelery">Jewelry</option>
+                <option value="men's clothing">Men's Clothing</option>
+                <option value="women's clothing">Women's Clothing</option>
+            </select>
+            <select id="sort-options">
+                <option value="asc">Price: Low to High</option>
+                <option value="desc">Price: High to Low</option>
+            </select>
+        </div>
+
+        <div class="product-grid">
+         
+        </div>
+
+        <button class="scroll-to-top">&uarr; Scroll to Top</button>
+    </main>
+    <div>
+    <span class="loader"></span>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 E-Commerce Store</p>
+    </footer>
+
+    <div class="cart-toast" id="cart-toast">Added to Cart</div>
+    <script src="script.js"></script>
+</body>
+</html>
